@@ -1,11 +1,11 @@
 # Daily profile metrics card (metrics.svg at repo root).
 # Read token: optional secret METRICS_TOKEN (fine-grained PAT, public
-# repositories only, read-only, Board-approved on SAF-269). When the secret is
+# repositories only, read-only, owner-approved). When the secret is
 # absent the job falls back to the default GITHUB_TOKEN and keeps the small card
 # (repository totals and languages off). Commits always use GITHUB_TOKEN.
 # Sections that list repository names (activity, repositories list, projects,
 # notable, etc.) stay off on purpose.
-# Image (Sentinel L-2, Board decision): the action's own pull uses the movable
+# Image (security review): the action's own pull uses the movable
 # tag ghcr.io/lowlighter/metrics:v3.34. Instead we pull that image by immutable
 # digest and tag it locally as metrics:3.34.0; with use_prebuilt_image: no the
 # action finds that local image and runs it without pulling or building.
