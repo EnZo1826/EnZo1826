@@ -8,6 +8,8 @@ on:
   schedule:
     - cron: "41 3 * * *" # 05:41 Africa/Windhoek
   workflow_dispatch:
+  push: # TEMPORARY branch test trigger, remove before hand-off
+    branches: [feat/jakes9na-rebrand]
 
 permissions: {}
 
@@ -32,7 +34,7 @@ jobs:
 
       - uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
         with:
-          target_branch: output
+          target_branch: ${{ github.event_name == 'push' && 'snake-preview' || 'output' }} # TEMPORARY
           build_dir: dist
           keep_history: true # append commits; never force-push the branch
           jekyll: false
