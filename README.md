@@ -51,8 +51,5 @@ The snake SVGs are pushed daily to branch `output` by .github/workflows/snake.ym
 
 <p align="center">
   Open to projects in Southern Africa and remote ·
-  <a href="https://www.linkedin.com/in/YOUR-HANDLE">LinkedIn</a> ·
-  <a href="mailto:you@example.com">Email</a>
+  <a href="https://www.linkedin.com/in/jaco-hanekom-80821282/">LinkedIn</a>
 </p>
-
-<!-- TODO(Jakes): fill LinkedIn + email -->
