@@ -6,22 +6,36 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg">
-    <img alt="I engineer intelligent systems that connect the physical world to software, data, automation, and artificial intelligence." src="assets/terminal-light.svg">
+    <img alt="I engineer intelligent systems that connect the physical world to software, data, automation, and artificial intelligence." src="assets/terminal-light.svg" width="760">
   </picture>
+</p>
+
+<p align="center">
+  <a href="https://enzo1826.github.io/jakes9na/"><strong>Portfolio site</strong></a> ·
+  <a href="#engineering-domains">Domains</a> ·
+  <a href="#capability-matrix">Capabilities</a> ·
+  <a href="#featured-projects">Case studies</a> ·
+  <a href="#edge-to-cloud-pipeline">Pipeline</a> ·
+  <a href="#ai-engineering">AI lab</a> ·
+  <a href="https://www.linkedin.com/in/jaco-hanekom-80821282/">LinkedIn</a>
 </p>
 
 I work across the boundary between operational technology and information technology: field sensors, industrial PLCs and edge computers on one side; APIs, databases, dashboards, business systems and AI tooling on the other.
 
 Most of what I build is a complete chain rather than an isolated component. A pulse from a meter, an input on a PLC or a GPS fix becomes a record, an alarm, a report or a decision for an operator. The systems run in the field, so I design for what the field actually does: connectivity drops, devices reboot, operators are busy, and data still has to arrive once, in order, with the right timestamp.
 
-## ▍Engineering domains
+<br>
+
+## Engineering domains
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/domains-dark.svg">
   <img alt="Eight engineering domains: Industrial Automation, IoT and Edge Computing, Full-Stack Development, AI and Agent Systems, Cloud Infrastructure, Security Technology, GPS and Telematics, Real-Time Visualization" src="assets/domains-light.svg" width="100%">
 </picture>
 
-## ▍Capability matrix
+<br>
+
+## Capability matrix
 
 Technologies are tagged by evidence, not skill level: **project** (used in a listed project below), **explored** (evaluated or experimented with) or **portfolio** (adopted to build this profile/site). No familiarity ratings are shown.
 
@@ -30,7 +44,9 @@ Technologies are tagged by evidence, not skill level: **project** (used in a lis
   <img alt="Capability matrix grouped by Field hardware, Edge and embedded, Communications, Backend and integration, Data and observability, Cloud and infrastructure, Applications and UI, AI and automation, each technology tagged project, explored or portfolio" src="assets/matrix-light.svg" width="100%">
 </picture>
 
-## ▍Featured projects
+<br>
+
+## Featured projects
 
 Every project below carries a status recorded by the owner. Case studies describe my engineering contribution to each system — they are not a claim of ownership of any employer's or client's product, and no client is named.
 
@@ -46,7 +62,9 @@ Every project below carries a status recorded by the owner. Case studies describ
 <a href="case-studies/erp-solutions.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/erp-solutions-dark.svg"><img alt="G: Custom business and ERP solutions — Frappe / ERPNext apps and integrations" src="assets/cards/erp-solutions-light.svg" width="49%"></picture></a>
 <a href="case-studies/monitoring-dashboards.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/monitoring-dashboards-dark.svg"><img alt="H: Real-time monitoring and dashboard interfaces — Grafana and custom live dashboards" src="assets/cards/monitoring-dashboards-light.svg" width="49%"></picture></a>
 
-## ▍Edge-to-cloud pipeline
+<br>
+
+## Edge-to-cloud pipeline
 
 The recurring architecture behind most of the work above: local logic at the edge so the site keeps working when the uplink does not, then a controlled hand-off to the cloud.
 
@@ -55,7 +73,9 @@ The recurring architecture behind most of the work above: local logic at the edg
   <img alt="Edge to cloud pipeline: Sensor to Edge device to Local logic to MQTT / API to Cloud backend to Database to Dashboard to Operator action" src="assets/pipeline-light.svg" width="100%">
 </picture>
 
-## ▍AI engineering
+<br>
+
+## AI engineering
 
 AI models listed here were used or evaluated, not developed or trained by me. Agent workflows are described as they actually run, not as autonomous production systems — see the [AI agent lab case study](case-studies/ai-agent-lab.md).
 
@@ -64,7 +84,9 @@ AI models listed here were used or evaluated, not developed or trained by me. Ag
   <img alt="AI engineering laboratory: multi-agent software development and persistent agent memory as working workflows, local LLM experiments and automation pipelines as experiments" src="assets/ai-lab-light.svg" width="100%">
 </picture>
 
-## ▍Telemetry
+<br>
+
+## Telemetry
 
 <img src="metrics.svg" alt="Contribution calendar for the current year" width="100%">
 
