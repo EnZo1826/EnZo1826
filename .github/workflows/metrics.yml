@@ -58,10 +58,18 @@ jobs:
           plugin_languages: ${{ secrets.METRICS_TOKEN != '' && 'yes' || 'no' }}
           plugin_languages_sections: most-used
           plugin_languages_limit: 8
+          # Colours from tokens.json (dark set): bg, panel, line, text, strong,
+          # crimson, teal. Calendar levels are a panel-to-teal ramp.
           extras_css: |
-            svg { background: #0B0F14; color: #9AA4AE; }
-            section { background: #151B23; border-radius: 6px; padding: 4px 6px; }
-            h1, h2, h3 { color: #3DDC84 !important; }
-            .field svg { fill: #22D3EE !important; }
-            .field.warning, .field.warning svg { color: #FFB020 !important; fill: #FFB020 !important; }
-            a { color: #22D3EE !important; }
+            svg { background: #05070A; color: #A9B7C6; }
+            section { background: #11161D; border: 1px solid #1F2A36; border-radius: 6px; padding: 4px 6px; }
+            h1, h2, h3 { color: #E6EDF3 !important; }
+            h2 svg, h3 svg { fill: #DA3633 !important; }
+            .field svg { fill: #49D7B1 !important; }
+            .field.warning, .field.warning svg { color: #DA3633 !important; fill: #DA3633 !important; }
+            a { color: #49D7B1 !important; }
+            rect.day[fill="#ebedf0"] { fill: #1F2A36 !important; }
+            rect.day[fill="#9be9a8"] { fill: #225049 !important; }
+            rect.day[fill="#40c463"] { fill: #30806E !important; }
+            rect.day[fill="#30a14e"] { fill: #3EB093 !important; }
+            rect.day[fill="#216e39"] { fill: #49D7B1 !important; }

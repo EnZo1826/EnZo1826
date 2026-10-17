@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="190" viewBox="0 0 560 190" role="img" aria-label="C: Industrial monitoring and automation — PLC-based equipment telemetry, threshold logic and alarms, published over MQTT and WebSockets into historical trends and remote operator dashboards.">
+<style>@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }.led{animation: blink 2.4s ease-in-out infinite;} @keyframes blink{0%,100%{opacity:1;}50%{opacity:.35;}}</style>
+<rect x="0" y="0" width="560" height="190" fill="#11161D" rx="8" stroke="#1F2A36" stroke-width="1"/>
+<circle class="led" cx="28" cy="28" r="6" fill="#49D7B1"/>
+<text x="46" y="33" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="15" fill="#E6EDF3" font-weight="700" letter-spacing="0.5">C · INDUSTRIAL MONITORING AND AUTOMATION</text>
+<text x="536" y="33" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11" fill="#49D7B1" text-anchor="end">OPERATIONAL</text>
+<line x1="24" y1="48" x2="536" y2="48" stroke="#1F2A36" stroke-width="1"/>
+<text x="24" y="72" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#A9B7C6">PLC-based equipment telemetry, threshold logic and alarms,</text>
+<text x="24" y="90" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#A9B7C6">published over MQTT and WebSockets into historical trends and</text>
+<text x="24" y="108" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#A9B7C6">remote operator dashboards.</text>
+<rect x="24" y="160" width="168.04" height="22" rx="11.0" fill="none" stroke="#49D7B1" stroke-width="1"/><text x="108.02" y="174.85" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11" fill="#49D7B1" text-anchor="middle">industrial shields plc</text>
+<rect x="200.04" y="160" width="99.84" height="22" rx="11.0" fill="none" stroke="#49D7B1" stroke-width="1"/><text x="249.95999999999998" y="174.85" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11" fill="#49D7B1" text-anchor="middle">raspberry pi</text>
+<rect x="307.88" y="160" width="72.56" height="22" rx="11.0" fill="none" stroke="#49D7B1" stroke-width="1"/><text x="344.15999999999997" y="174.85" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11" fill="#49D7B1" text-anchor="middle">node red</text>
+<rect x="388.44" y="160" width="58.92" height="22" rx="11.0" fill="none" stroke="#49D7B1" stroke-width="1"/><text x="417.9" y="174.85" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11" fill="#49D7B1" text-anchor="middle">modbus</text>
+<rect x="455.36" y="160" width="45.28" height="22" rx="11.0" fill="none" stroke="#49D7B1" stroke-width="1"/><text x="478.0" y="174.85" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11" fill="#49D7B1" text-anchor="middle">mqtt</text>
+</svg>

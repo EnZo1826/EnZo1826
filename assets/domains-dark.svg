@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1268" height="408" viewBox="0 0 1268 408" role="img" aria-label="Eight engineering domains: Industrial Automation, IoT and Edge Computing, Full-Stack Development, AI and Agent Systems, Cloud Infrastructure, Security Technology, GPS and Telematics, Real-Time Visualization">
+<style>@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }.led{animation: blink 2.4s ease-in-out infinite;} @keyframes blink{0%,100%{opacity:1;}50%{opacity:.35;}}</style>
+<rect x="0" y="0" width="1268" height="408" fill="#05070A"/>
+<rect x="24" y="24" width="290" height="170" fill="#11161D" rx="6" stroke="#1F2A36" stroke-width="1"/>
+<circle class="led" cx="46" cy="48" r="5" fill="#49D7B1"/>
+<text x="60" y="53" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12" fill="#49D7B1" font-weight="700" letter-spacing="2">OT</text>
+<text x="42" y="78" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="14" fill="#E6EDF3" font-weight="700" letter-spacing="0.5">INDUSTRIAL AUTOMATION</text>
+<line x1="42" y1="88" x2="296" y2="88" stroke="#1F2A36" stroke-width="1"/>
+<text x="42" y="108" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">PLC-based control and monitoring treated</text>
+<text x="42" y="124" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">as a first-class engineering discipline:</text>
+<text x="42" y="140" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">digital and analog I/O, pulse counting,</text>
+<text x="42" y="156" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">Modbus registers, timers, alarms and</text>
+<rect x="334" y="24" width="290" height="170" fill="#11161D" rx="6" stroke="#1F2A36" stroke-width="1"/>
+<circle class="led" cx="356" cy="48" r="5" fill="#49D7B1"/>
+<text x="370" y="53" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12" fill="#49D7B1" font-weight="700" letter-spacing="2">EDGE</text>
+<text x="352" y="78" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="14" fill="#E6EDF3" font-weight="700" letter-spacing="0.5">IOT AND EDGE COMPUTING</text>
+<line x1="352" y1="88" x2="606" y2="88" stroke="#1F2A36" stroke-width="1"/>
+<text x="352" y="108" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">Edge devices that keep working through</text>
+<text x="352" y="124" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">connectivity loss: local logic,</text>
+<text x="352" y="140" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">buffering, MQTT messaging and controlled</text>
+<text x="352" y="156" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">edge-to-cloud transfer over Ethernet,</text>
+<rect x="644" y="24" width="290" height="170" fill="#11161D" rx="6" stroke="#1F2A36" stroke-width="1"/>
+<circle class="led" cx="666" cy="48" r="5" fill="#49D7B1"/>
+<text x="680" y="53" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12" fill="#49D7B1" font-weight="700" letter-spacing="2">APP</text>
+<text x="662" y="78" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="14" fill="#E6EDF3" font-weight="700" letter-spacing="0.5">FULL-STACK DEVELOPMENT</text>
+<line x1="662" y1="88" x2="916" y2="88" stroke="#1F2A36" stroke-width="1"/>
+<text x="662" y="108" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">Mobile-first, offline-first web</text>
+<text x="662" y="124" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">applications and the services behind</text>
+<text x="662" y="140" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">them: local transaction queues, API</text>
+<text x="662" y="156" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">synchronisation, audit logging, exports</text>
+<rect x="954" y="24" width="290" height="170" fill="#11161D" rx="6" stroke="#1F2A36" stroke-width="1"/>
+<circle class="led" cx="976" cy="48" r="5" fill="#49D7B1"/>
+<text x="990" y="53" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12" fill="#49D7B1" font-weight="700" letter-spacing="2">AI</text>
+<text x="972" y="78" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="14" fill="#E6EDF3" font-weight="700" letter-spacing="0.5">AI AND AGENT SYSTEMS</text>
+<line x1="972" y1="88" x2="1226" y2="88" stroke="#1F2A36" stroke-width="1"/>
+<text x="972" y="108" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">Practical AI in engineering work:</text>
+<text x="972" y="124" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">multi-agent development workflows with</text>
+<text x="972" y="140" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">defined roles and approval gates, local</text>
+<text x="972" y="156" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">LLM experiments, tool calling and</text>
+<rect x="24" y="214" width="290" height="170" fill="#11161D" rx="6" stroke="#1F2A36" stroke-width="1"/>
+<circle class="led" cx="46" cy="238" r="5" fill="#49D7B1"/>
+<text x="60" y="243" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12" fill="#49D7B1" font-weight="700" letter-spacing="2">CLOUD</text>
+<text x="42" y="268" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="14" fill="#E6EDF3" font-weight="700" letter-spacing="0.5">CLOUD INFRASTRUCTURE</text>
+<line x1="42" y1="278" x2="296" y2="278" stroke="#1F2A36" stroke-width="1"/>
+<text x="42" y="298" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">Hosting and operating the services that</text>
+<text x="42" y="314" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">field systems report to: Linux servers,</text>
+<text x="42" y="330" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">reverse proxies, TLS, DNS, containers</text>
+<text x="42" y="346" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">and service management.</text>
+<rect x="334" y="214" width="290" height="170" fill="#11161D" rx="6" stroke="#1F2A36" stroke-width="1"/>
+<circle class="led" cx="356" cy="238" r="5" fill="#49D7B1"/>
+<text x="370" y="243" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12" fill="#49D7B1" font-weight="700" letter-spacing="2">SEC</text>
+<text x="352" y="268" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="14" fill="#E6EDF3" font-weight="700" letter-spacing="0.5">SECURITY TECHNOLOGY</text>
+<line x1="352" y1="278" x2="606" y2="278" stroke="#1F2A36" stroke-width="1"/>
+<text x="352" y="298" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">Software integration for physical</text>
+<text x="352" y="314" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">security operations: checkpoint and</text>
+<text x="352" y="330" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">visitor workflows, IP cameras, vehicle</text>
+<text x="352" y="346" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">recognition and event notifications.</text>
+<rect x="644" y="214" width="290" height="170" fill="#11161D" rx="6" stroke="#1F2A36" stroke-width="1"/>
+<circle class="led" cx="666" cy="238" r="5" fill="#49D7B1"/>
+<text x="680" y="243" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12" fill="#49D7B1" font-weight="700" letter-spacing="2">GPS</text>
+<text x="662" y="268" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="14" fill="#E6EDF3" font-weight="700" letter-spacing="0.5">GPS AND TELEMATICS</text>
+<line x1="662" y1="278" x2="916" y2="278" stroke="#1F2A36" stroke-width="1"/>
+<text x="662" y="298" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">Turning vehicle telemetry into</text>
+<text x="662" y="314" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">operational intelligence for transport,</text>
+<text x="662" y="330" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">security and logistics: live position,</text>
+<text x="662" y="346" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">trips, geofences, driver behaviour and</text>
+<rect x="954" y="214" width="290" height="170" fill="#11161D" rx="6" stroke="#1F2A36" stroke-width="1"/>
+<circle class="led" cx="976" cy="238" r="5" fill="#49D7B1"/>
+<text x="990" y="243" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12" fill="#49D7B1" font-weight="700" letter-spacing="2">VIZ</text>
+<text x="972" y="268" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="14" fill="#E6EDF3" font-weight="700" letter-spacing="0.5">REAL-TIME VISUALIZATION</text>
+<line x1="972" y1="278" x2="1226" y2="278" stroke="#1F2A36" stroke-width="1"/>
+<text x="972" y="298" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">Interfaces that turn telemetry into</text>
+<text x="972" y="314" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">decisions: Grafana and custom</text>
+<text x="972" y="330" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">dashboards, alarm feeds, historical</text>
+<text x="972" y="346" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#A9B7C6">trends and physical LED displays driven</text>
+</svg>
