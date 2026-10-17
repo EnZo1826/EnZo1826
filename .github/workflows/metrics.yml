@@ -1,6 +1,7 @@
 # Daily profile metrics card (metrics.svg at repo root).
-# Uses only the default GITHUB_TOKEN: public data only. Sections that list
-# repository names (base activity, plugins that name repos) are deliberately off.
+# Uses only the default GITHUB_TOKEN. That token cannot list the owner's other
+# repositories, so repository counts and languages are off (they render as
+# 0 / empty). Sections that list repository names stay off on purpose.
 name: metrics
 
 on:
@@ -32,16 +33,12 @@ jobs:
           user: ${{ github.repository_owner }}
           filename: metrics.svg
           template: classic
-          base: header, repositories
+          base: header
           config_display: large
           config_timezone: Africa/Windhoek
           config_twemoji: yes
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
-          plugin_languages_colors: "0:#3DDC84, 1:#22D3EE, 2:#FFB020, 3:#2BB673, 4:#1AA6C0, 5:#D9961A"
+          plugin_isocalendar_duration: full-year
           extras_css: |
             svg { background: #0B0F14; color: #9AA4AE; }
             section { background: #151B23; border-radius: 6px; padding: 4px 6px; }

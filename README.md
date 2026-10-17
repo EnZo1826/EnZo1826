@@ -37,7 +37,7 @@
 
 ## ▍Telemetry
 
-<img src="metrics.svg" alt="Commit and language activity metrics" width="100%">
+<img src="metrics.svg" alt="Contribution calendar and commit streak metrics" width="100%">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EnZo1826/EnZo1826/output/github-snake-dark.svg">
