@@ -6,6 +6,9 @@ on:
   schedule:
     - cron: "41 3 * * *" # 05:41 Africa/Windhoek
   workflow_dispatch:
+  push: # TEMP: branch test only, removed before hand-off
+    branches: [feat/control-room-profile]
+    paths: [".github/workflows/**"]
 
 permissions: {}
 
