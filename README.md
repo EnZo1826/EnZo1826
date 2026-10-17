@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img alt="Jakes9NA, from hardware to cloud, from data to intelligence, Windhoek, Namibia" src="assets/hero-light.svg" width="100%">
+  <img alt="Jakes9NA, from hardware to cloud, from data to intelligence, Windhoek, Namibia. Status panel: 18 sites, 13 years uptime, timezone Africa/Windhoek, status nominal." src="assets/hero-light.svg" width="100%">
 </picture>
 
 <p align="center">
