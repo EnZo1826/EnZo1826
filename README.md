@@ -79,6 +79,10 @@ The snake SVGs are pushed daily to branch `output` by .github/workflows/snake.ym
 -->
 
 <p align="center">
+  <a href="https://enzo1826.github.io/jakes9na/"><strong>Portfolio: enzo1826.github.io/jakes9na</strong></a>
+</p>
+
+<p align="center">
   Open to projects in Southern Africa and remote ·
   <a href="https://www.linkedin.com/in/jaco-hanekom-80821282/">LinkedIn</a>
 </p>
