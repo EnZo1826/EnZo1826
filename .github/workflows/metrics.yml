@@ -53,13 +53,14 @@ jobs:
           config_display: large
           config_timezone: Africa/Windhoek
           config_twemoji: yes
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
           plugin_languages: ${{ secrets.METRICS_TOKEN != '' && 'yes' || 'no' }}
           plugin_languages_sections: most-used
           plugin_languages_limit: 8
           # Colours from tokens.json (dark set): bg, panel, line, text, strong,
-          # crimson, teal. Calendar levels are a panel-to-teal ramp.
+          # crimson, teal. Calendar levels are a panel-to-teal ramp (GitHub's
+          # Halloween ramp maps onto the same levels).
           extras_css: |
             svg { background: #05070A; color: #A9B7C6; }
             section { background: #11161D; border: 1px solid #1F2A36; border-radius: 6px; padding: 4px 6px; }
@@ -73,3 +74,8 @@ jobs:
             rect.day[fill="#40c463"] { fill: #30806E !important; }
             rect.day[fill="#30a14e"] { fill: #3EB093 !important; }
             rect.day[fill="#216e39"] { fill: #49D7B1 !important; }
+            rect.day[fill="#ffee4a"] { fill: #225049 !important; }
+            rect.day[fill="#ffc501"] { fill: #30806E !important; }
+            rect.day[fill="#fe9600"] { fill: #3EB093 !important; }
+            rect.day[fill="#03001c"] { fill: #49D7B1 !important; }
+            svg.calendar text { fill: #A9B7C6; }
