@@ -5,8 +5,13 @@
 # (repository totals and languages off). Commits always use GITHUB_TOKEN.
 # Sections that list repository names (activity, repositories list, projects,
 # notable, etc.) stay off on purpose.
-# use_prebuilt_image: no -> image is built from the pinned action source each
-# run instead of pulling a movable registry tag (Sentinel L-2, Board decision).
+# Image (Sentinel L-2, Board decision): the action's own pull uses the movable
+# tag ghcr.io/lowlighter/metrics:v3.34. Instead we pull that image by immutable
+# digest and tag it locally as metrics:3.34.0; with use_prebuilt_image: no the
+# action finds that local image and runs it without pulling or building.
+# (A from-source docker build of v3.34 fails upstream: nokogiri gem build error,
+# and it pulls unpinned apt/gem/curl|sh dependencies, so it is not safer.)
+# If the action SHA is bumped, update METRICS_DIGEST and METRICS_LOCAL_TAG too.
 name: metrics
 
 on:
@@ -29,7 +34,15 @@ jobs:
     timeout-minutes: 15
     permissions:
       contents: write # commit metrics.svg
+    env:
+      METRICS_DIGEST: sha256:257392f90340f916cb8b815026f259399f6b246d3eb7de38b58bfe7a07bd5b65 # ghcr v3.34
+      METRICS_LOCAL_TAG: metrics:3.34.0 # must match the action's package.json version
     steps:
+      - name: Pull metrics image by digest
+        run: |
+          docker pull "ghcr.io/lowlighter/metrics@${METRICS_DIGEST}"
+          docker tag "ghcr.io/lowlighter/metrics@${METRICS_DIGEST}" "${METRICS_LOCAL_TAG}"
+
       - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN || github.token }}
