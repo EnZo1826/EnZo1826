@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="Architecture diagram for fleet-telematics">
+<style>
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; }
+}
+</style>
+<rect width="900" height="220" fill="#0B0F14"/>
+<line x1="210.0" y1="110.0" x2="270.0" y2="110.0" stroke="#223041" stroke-width="2"/><line x1="420.0" y1="110.0" x2="480.0" y2="110.0" stroke="#223041" stroke-width="2"/><line x1="630.0" y1="110.0" x2="690.0" y2="110.0" stroke="#223041" stroke-width="2"/>
+
+<circle r="3.5" fill="#22D3EE">
+  <animateMotion dur="2.2s" begin="0.0s" repeatCount="indefinite" path="M210.0,110.0 L270.0,110.0"/>
+</circle>
+<circle r="3.5" fill="#22D3EE">
+  <animateMotion dur="2.2s" begin="0.3s" repeatCount="indefinite" path="M420.0,110.0 L480.0,110.0"/>
+</circle>
+<circle r="3.5" fill="#22D3EE">
+  <animateMotion dur="2.2s" begin="0.6s" repeatCount="indefinite" path="M630.0,110.0 L690.0,110.0"/>
+</circle>
+
+<rect x="60.0" y="70.0" width="150" height="80" rx="6" fill="#151B23" stroke="#2A3644" stroke-width="1"/>
+<text x="135.0" y="115.0" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12" fill="#E6EDF3" text-anchor="middle" font-weight="700">GPS + camera unit</text>
+<rect x="270.0" y="70.0" width="150" height="80" rx="6" fill="#151B23" stroke="#2A3644" stroke-width="1"/>
+<text x="345.0" y="115.0" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12" fill="#E6EDF3" text-anchor="middle" font-weight="700">Cellular uplink</text>
+<rect x="480.0" y="70.0" width="150" height="80" rx="6" fill="#151B23" stroke="#2A3644" stroke-width="1"/>
+<text x="555.0" y="115.0" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12" fill="#E6EDF3" text-anchor="middle" font-weight="700">Cloud ingest</text>
+<rect x="690.0" y="70.0" width="150" height="80" rx="6" fill="#151B23" stroke="#2A3644" stroke-width="1"/>
+<text x="765.0" y="115.0" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12" fill="#E6EDF3" text-anchor="middle" font-weight="700">Live map &amp; alerts</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="180" viewBox="0 0 560 180" role="img" aria-label="LED DISPLAY FIRMWARE: ESP32-S3 LED display firmware: HUB75 panels">
+<style>
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; }
+}
+.led{animation: blink 2.4s ease-in-out infinite;} @keyframes blink{0%,100%{opacity:1;}50%{opacity:.35;}}</style>
+<rect width="560" height="180" fill="#151B23" stroke="#2A3644" stroke-width="1" rx="8"/>
+<circle class="led" cx="28" cy="28" r="6" fill="#3DDC84"/>
+<text x="46" y="33" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="16" fill="#E6EDF3" font-weight="700" letter-spacing="1">LED DISPLAY FIRMWARE</text>
+<text x="528" y="33" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12" fill="#FFB020" text-anchor="end">HUB75</text>
+<line x1="24" y1="48" x2="536" y2="48" stroke="#2A3644" stroke-width="1"/>
+<text x="24" y="76" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="13" fill="#8B98A5">ESP32-S3 LED display firmware: HUB75 panels</text>
+<rect x="24" y="128" width="70" height="24" rx="12" fill="none" stroke="#2A3644" stroke-width="1"/><text x="59.0" y="144" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12" fill="#22D3EE" text-anchor="middle">ESP32-S3</text><rect x="104" y="128" width="35" height="24" rx="12" fill="none" stroke="#2A3644" stroke-width="1"/><text x="121.5" y="144" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12" fill="#22D3EE" text-anchor="middle">C++</text><rect x="149" y="128" width="49" height="24" rx="12" fill="none" stroke="#2A3644" stroke-width="1"/><text x="173.5" y="144" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12" fill="#22D3EE" text-anchor="middle">HUB75</text>
+</svg>
