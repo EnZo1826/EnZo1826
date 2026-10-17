@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img alt="Jakes · edge-to-cloud engineer · Walvis Bay, Namibia" src="assets/header-light.svg" width="100%">
+  <img alt="Jakes · edge-to-cloud engineer · Namibia" src="assets/header-light.svg" width="100%">
 </picture>
 
 <p align="center"><b>I build the whole stack: the sensor on site, the device at the edge, and the platform in the cloud.</b></p>

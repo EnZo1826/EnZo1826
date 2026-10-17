@@ -1,7 +1,12 @@
 # Daily profile metrics card (metrics.svg at repo root).
-# Uses only the default GITHUB_TOKEN. That token cannot list the owner's other
-# repositories, so repository counts and languages are off (they render as
-# 0 / empty). Sections that list repository names stay off on purpose.
+# Read token: optional secret METRICS_TOKEN (fine-grained PAT, public
+# repositories only, read-only, Board-approved on SAF-269). When the secret is
+# absent the job falls back to the default GITHUB_TOKEN and keeps the small card
+# (repository totals and languages off). Commits always use GITHUB_TOKEN.
+# Sections that list repository names (activity, repositories list, projects,
+# notable, etc.) stay off on purpose.
+# use_prebuilt_image: no -> image is built from the pinned action source each
+# run instead of pulling a movable registry tag (Sentinel L-2, Board decision).
 name: metrics
 
 on:
@@ -24,18 +29,22 @@ jobs:
     steps:
       - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
           committer_token: ${{ github.token }}
           committer_message: "chore: update metrics.svg [skip ci]"
           user: ${{ github.repository_owner }}
           filename: metrics.svg
           template: classic
-          base: header
+          use_prebuilt_image: no
+          base: ${{ secrets.METRICS_TOKEN != '' && 'header, repositories' || 'header' }}
           config_display: large
           config_timezone: Africa/Windhoek
           config_twemoji: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+          plugin_languages: ${{ secrets.METRICS_TOKEN != '' && 'yes' || 'no' }}
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 8
           extras_css: |
             svg { background: #0B0F14; color: #9AA4AE; }
             section { background: #151B23; border-radius: 6px; padding: 4px 6px; }

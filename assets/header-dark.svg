@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Jakes, edge-to-cloud engineer, Walvis Bay, Namibia">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Jakes, edge-to-cloud engineer, Namibia">
 <style>
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; }
@@ -20,7 +20,7 @@
 <rect class="scan" x="0" y="0" width="3" height="300" fill="#22D3EE" opacity="0.8"/>
 <text x="48" y="110" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="34" font-weight="700" fill="#E6EDF3" letter-spacing="2">JAKES</text>
 <text x="48" y="150" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="20" fill="#3DDC84" letter-spacing="3">EDGE-TO-CLOUD ENGINEER</text>
-<text x="48" y="182" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="16" fill="#8B98A5" letter-spacing="2">WALVIS BAY, NAMIBIA</text>
+<text x="48" y="182" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="16" fill="#8B98A5" letter-spacing="2">NAMIBIA</text>
 <rect x="840" y="60" width="312" height="180" rx="6" fill="#151B23" stroke="#2A3644" stroke-width="1"/>
 <circle class="led" cx="872" cy="96" r="6" fill="#3DDC84"/>
 <text x="888" y="101" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="14" fill="#E6EDF3" letter-spacing="1">SYSTEMS ONLINE</text>
