@@ -45,9 +45,8 @@
 </picture>
 
 <!--
-metrics.svg is generated at repo root by a scheduled GitHub Action (Forge's issue).
-The snake above is generated on branch `output` by a scheduled GitHub Action (Forge's issue);
-paths may be adjusted there if the action lays files out differently.
+metrics.svg is committed to the repo root daily by .github/workflows/metrics.yml.
+The snake SVGs are pushed daily to branch `output` by .github/workflows/snake.yml.
 -->
 
 <p align="center">

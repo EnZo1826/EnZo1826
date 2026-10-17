@@ -1,0 +1,39 @@
+# Daily contribution snake, published to the `output` branch.
+# README reads github-snake-dark.svg / github-snake-light.svg from that branch.
+name: snake
+
+on:
+  schedule:
+    - cron: "41 3 * * *" # 05:41 Africa/Windhoek
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: snake
+  cancel-in-progress: false
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write # push to the output branch
+    steps:
+      - uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ github.token }}
+          outputs: |
+            dist/github-snake-light.svg
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#3DDC84&color_dots=#151B23,#0E4429,#1A7F45,#2BB673,#3DDC84
+
+      - uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true # append commits; never force-push the branch
+          jekyll: false
+          commit_message: "chore: update snake [skip ci]"
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
