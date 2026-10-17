@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="190" viewBox="0 0 560 190" role="img" aria-label="H: Real-time monitoring and dashboard interfaces — Grafana and custom web dashboards that present live telemetry, alarms, system status and history in timezone-correct, filterable, exportable views.">
+<style>@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }.led{animation: blink 2.4s ease-in-out infinite;} @keyframes blink{0%,100%{opacity:1;}50%{opacity:.35;}}</style>
+<rect x="0" y="0" width="560" height="190" fill="#FFFFFF" rx="8" stroke="#D9E0E7" stroke-width="1"/>
+<circle class="led" cx="28" cy="28" r="6" fill="#107A62"/>
+<text x="46" y="33" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="15" fill="#0B0F14" font-weight="700" letter-spacing="0.5">H · REAL-TIME MONITORING AND DASHBOARD INTERFACES</text>
+<text x="536" y="33" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11" fill="#107A62" text-anchor="end">OPERATIONAL</text>
+<line x1="24" y1="48" x2="536" y2="48" stroke="#D9E0E7" stroke-width="1"/>
+<text x="24" y="72" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#4B5768">Grafana and custom web dashboards that present live telemetry,</text>
+<text x="24" y="90" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#4B5768">alarms, system status and history in timezone-correct,</text>
+<text x="24" y="108" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#4B5768">filterable, exportable views.</text>
+<rect x="24" y="160" width="65.74000000000001" height="22" rx="11.0" fill="none" stroke="#107A62" stroke-width="1"/><text x="56.870000000000005" y="174.85" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11" fill="#107A62" text-anchor="middle">grafana</text>
+<rect x="97.74000000000001" y="160" width="72.56" height="22" rx="11.0" fill="none" stroke="#107A62" stroke-width="1"/><text x="134.02" y="174.85" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11" fill="#107A62" text-anchor="middle">influxdb</text>
+<rect x="178.3" y="160" width="72.56" height="22" rx="11.0" fill="none" stroke="#107A62" stroke-width="1"/><text x="214.58" y="174.85" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11" fill="#107A62" text-anchor="middle">node red</text>
+<rect x="258.86" y="160" width="86.2" height="22" rx="11.0" fill="none" stroke="#107A62" stroke-width="1"/><text x="301.96000000000004" y="174.85" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11" fill="#107A62" text-anchor="middle">javascript</text>
+<rect x="353.06" y="160" width="72.56" height="22" rx="11.0" fill="none" stroke="#107A62" stroke-width="1"/><text x="389.34000000000003" y="174.85" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11" fill="#107A62" text-anchor="middle">html css</text>
+</svg>

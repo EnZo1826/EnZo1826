@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="190" viewBox="0 0 560 190" role="img" aria-label="A: Industrial fuel management system — A fuel dispensing and transaction-management architecture that turns pulses from a flow meter into vehicle-linked transactions, printed receipts and ERP records.">
+<style>@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }.led{animation: blink 2.4s ease-in-out infinite;} @keyframes blink{0%,100%{opacity:1;}50%{opacity:.35;}}</style>
+<rect x="0" y="0" width="560" height="190" fill="#11161D" rx="8" stroke="#1F2A36" stroke-width="1"/>
+<circle class="led" cx="28" cy="28" r="6" fill="#49D7B1"/>
+<text x="46" y="33" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="15" fill="#E6EDF3" font-weight="700" letter-spacing="0.5">A · INDUSTRIAL FUEL MANAGEMENT SYSTEM</text>
+<text x="536" y="33" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11" fill="#49D7B1" text-anchor="end">OPERATIONAL</text>
+<line x1="24" y1="48" x2="536" y2="48" stroke="#1F2A36" stroke-width="1"/>
+<text x="24" y="72" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#A9B7C6">A fuel dispensing and transaction-management architecture that</text>
+<text x="24" y="90" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#A9B7C6">turns pulses from a flow meter into vehicle-linked</text>
+<text x="24" y="108" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#A9B7C6">transactions, printed receipts and ERP records.</text>
+<rect x="24" y="160" width="99.84" height="22" rx="11.0" fill="none" stroke="#49D7B1" stroke-width="1"/><text x="73.92" y="174.85" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11" fill="#49D7B1" text-anchor="middle">raspberry pi</text>
+<rect x="131.84" y="160" width="127.12" height="22" rx="11.0" fill="none" stroke="#49D7B1" stroke-width="1"/><text x="195.4" y="174.85" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11" fill="#49D7B1" text-anchor="middle">compute module 4</text>
+<rect x="266.96000000000004" y="160" width="168.04" height="22" rx="11.0" fill="none" stroke="#49D7B1" stroke-width="1"/><text x="350.98" y="174.85" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11" fill="#49D7B1" text-anchor="middle">industrial shields plc</text>
+<rect x="443.0" y="160" width="86.2" height="22" rx="11.0" fill="none" stroke="#49D7B1" stroke-width="1"/><text x="486.1" y="174.85" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="11" fill="#49D7B1" text-anchor="middle">piusi k400</text>
+</svg>
