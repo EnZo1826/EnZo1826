@@ -1,0 +1,67 @@
+# Daily profile metrics card (metrics.svg at repo root).
+# Read token: optional secret METRICS_TOKEN (fine-grained PAT, public
+# repositories only, read-only, owner-approved). When the secret is
+# absent the job falls back to the default GITHUB_TOKEN and keeps the small card
+# (repository totals and languages off). Commits always use GITHUB_TOKEN.
+# Sections that list repository names (activity, repositories list, projects,
+# notable, etc.) stay off on purpose.
+# Image (security review): the action's own pull uses the movable
+# tag ghcr.io/lowlighter/metrics:v3.34. Instead we pull that image by immutable
+# digest and tag it locally as metrics:3.34.0; with use_prebuilt_image: no the
+# action finds that local image and runs it without pulling or building.
+# (A from-source docker build of v3.34 fails upstream: nokogiri gem build error,
+# and it pulls unpinned apt/gem/curl|sh dependencies, so it is not safer.)
+# If the action SHA is bumped, update METRICS_DIGEST and METRICS_LOCAL_TAG too.
+name: metrics
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # 05:17 Africa/Windhoek
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: metrics
+  cancel-in-progress: false
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write # commit metrics.svg
+    env:
+      METRICS_DIGEST: sha256:257392f90340f916cb8b815026f259399f6b246d3eb7de38b58bfe7a07bd5b65 # ghcr v3.34
+      METRICS_LOCAL_TAG: metrics:3.34.0 # must match the action's package.json version
+    steps:
+      - name: Pull metrics image by digest
+        run: |
+          docker pull "ghcr.io/lowlighter/metrics@${METRICS_DIGEST}"
+          docker tag "ghcr.io/lowlighter/metrics@${METRICS_DIGEST}" "${METRICS_LOCAL_TAG}"
+
+      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
+          committer_token: ${{ github.token }}
+          committer_message: "chore: update metrics.svg [skip ci]"
+          user: ${{ github.repository_owner }}
+          filename: metrics.svg
+          template: classic
+          use_prebuilt_image: no
+          base: ${{ secrets.METRICS_TOKEN != '' && 'header, repositories' || 'header' }}
+          config_display: large
+          config_timezone: Africa/Windhoek
+          config_twemoji: yes
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_languages: ${{ secrets.METRICS_TOKEN != '' && 'yes' || 'no' }}
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 8
+          extras_css: |
+            svg { background: #0B0F14; color: #9AA4AE; }
+            section { background: #151B23; border-radius: 6px; padding: 4px 6px; }
+            h1, h2, h3 { color: #3DDC84 !important; }
+            .field svg { fill: #22D3EE !important; }
+            .field.warning, .field.warning svg { color: #FFB020 !important; fill: #FFB020 !important; }
+            a { color: #22D3EE !important; }
