@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="img/erp-solutions-dark.svg">
-  <img alt="Architecture: Field PWAs and edge systems to Frappe REST API to Custom Frappe apps to MariaDB to Jinja print formats to Business users" src="img/erp-solutions-light.svg" width="100%">
+  <img alt="Project card. G: Custom business and ERP solutions — Frappe / ERPNext applications, DocTypes, print formats and integrations that connect operational field systems to business processes." src="img/erp-solutions-light.svg" width="100%">
 </picture>
 
 **Status:** Operational (Owner-verified, 17 Oct 2026)
@@ -21,7 +21,7 @@ Custom app development, print-format design, integrations and site deployment on
 - Jinja print formats produce branded quotations, invoices and operational documents.
 - REST APIs and web forms receive data from external PWAs and edge systems, with server-side business rules.
 - Payroll and Namibian tax-related configuration are handled inside ERPNext rather than in side spreadsheets.
-- Sites run on ERPNext v15 and v16 on AWS EC2 behind nginx with HTTPS.
+- Self-hosted ERPNext on Linux behind nginx with HTTPS.
 
 ## Architecture
 
@@ -47,5 +47,5 @@ Custom app development, print-format design, integrations and site deployment on
 
 ## Technologies
 
-erpnext, frappe, python, jinja, javascript, mariadb, nginx, aws ec2
+erpnext, frappe, python, jinja, javascript, mariadb, nginx
 

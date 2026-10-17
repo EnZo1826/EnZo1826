@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="img/security-checkpoint-dark.svg">
-  <img alt="Architecture: Gate officer to Checkpoint PWA to Local sync queue to REST API to Frappe / ERPNext to Reports and status" src="img/security-checkpoint-light.svg" width="100%">
+  <img alt="Project card. B: Security checkpoint and visitor management — An offline-capable checkpoint PWA for registering visitors and vehicles, tracking check-in and check-out, and synchronising every movement to an ERP backend." src="img/security-checkpoint-light.svg" width="100%">
 </picture>
 
 **Status:** Operational (Owner-verified, 17 Oct 2026)

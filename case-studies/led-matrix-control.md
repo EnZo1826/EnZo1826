@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="img/led-matrix-control-dark.svg">
-  <img alt="Architecture: Process data to Node-RED to MQTT to RP2040 / ESP32-S3 to HUB75 LED matrix to Operator on the ground" src="img/led-matrix-control-light.svg" width="100%">
+  <img alt="Project card. E: Intelligent LED matrix control — Microcontroller-driven HUB75 RGB LED matrices that display live process values, text and alarm states commanded over MQTT." src="img/led-matrix-control-light.svg" width="100%">
 </picture>
 
 **Status:** Operational (Owner-verified, 17 Oct 2026)

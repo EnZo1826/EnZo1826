@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="img/fuel-management-dark.svg">
-  <img alt="Architecture: Flow meter pulser to Industrial Pi PLC to Node-RED transaction logic to Operator PWA to Thermal receipt to Sync over MQTT / API to ERP records" src="img/fuel-management-light.svg" width="100%">
+  <img alt="Project card. A: Industrial fuel management system — A fuel dispensing and transaction-management architecture that turns pulses from a flow meter into vehicle-linked transactions, printed receipts and ERP records." src="img/fuel-management-light.svg" width="100%">
 </picture>
 
 **Status:** Operational (Owner-verified, 17 Oct 2026)
@@ -50,5 +50,5 @@ Engineering of the edge, application and integration layers: pulse acquisition, 
 
 ## Technologies
 
-raspberry pi, compute module 4, industrial shields plc, piusi k400, gpio pulse inputs, node red, javascript, mqtt, pwa, frappe, thermal printing
+raspberry pi, compute module 4, industrial shields plc, flow-meter pulser, gpio pulse inputs, node red, javascript, mqtt, pwa, frappe, thermal printing
 

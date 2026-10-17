@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="img/industrial-monitoring-dark.svg">
-  <img alt="Architecture: Equipment and sensors to Industrial Pi PLC to Node-RED edge logic to MQTT / WebSockets to InfluxDB to Grafana and HMI screens to Operator action" src="img/industrial-monitoring-light.svg" width="100%">
+  <img alt="Project card. C: Industrial monitoring and automation — PLC-based equipment telemetry, threshold logic and alarms, published over MQTT and WebSockets into historical trends and remote operator dashboards." src="img/industrial-monitoring-light.svg" width="100%">
 </picture>
 
 **Status:** Operational (Owner-verified, 17 Oct 2026)

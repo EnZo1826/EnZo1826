@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="img/monitoring-dashboards-dark.svg">
-  <img alt="Architecture: Devices and edge nodes to Node-RED to MQTT / WebSockets to InfluxDB to Grafana and custom dashboards to Operator action" src="img/monitoring-dashboards-light.svg" width="100%">
+  <img alt="Project card. H: Real-time monitoring and dashboard interfaces — Grafana and custom web dashboards that present live telemetry, alarms, system status and history in timezone-correct, filterable, exportable views." src="img/monitoring-dashboards-light.svg" width="100%">
 </picture>
 
 **Status:** Operational (Owner-verified, 17 Oct 2026)

@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="img/ai-agent-lab-dark.svg">
-  <img alt="Architecture: Engineer (approver) to Coordinator agents to Specialist agents to Tools and repos to Hosted and local models to Review and approval gate" src="img/ai-agent-lab-light.svg" width="100%">
+  <img alt="Project card. F: AI agent engineering laboratory — A working multi-agent software-development setup with coordinated technical roles and human approval gates, alongside local LLM experiments and automation workflows." src="img/ai-agent-lab-light.svg" width="100%">
 </picture>
 
 **Status:** Operational (Owner-verified, 17 Oct 2026)
